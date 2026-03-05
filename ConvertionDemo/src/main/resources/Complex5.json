@@ -1,0 +1,54 @@
+{
+  "ecommercePlatform": "ShopEasy",
+  "users": [
+    {
+      "userId": "U1001",
+      "name": "Suresh Kumar",
+      "email": "suresh.kumar@example.com",
+      "address": {
+        "street": "45 Gandhi Street",
+        "city": "Coimbatore",
+        "pincode": "641001",
+        "country": "India"
+      },
+      "orders": [
+        {
+          "orderId": "O5001",
+          "date": "2025-08-01",
+          "status": "Delivered",
+          "items": [
+            {
+              "productId": "P101",
+              "name": "Smartphone",
+              "price": 15000,
+              "quantity": 1
+            },
+            {
+              "productId": "P102",
+              "name": "Bluetooth Headphones",
+              "price": 2000,
+              "quantity": 2
+            }
+          ],
+          "payment": {
+            "method": "UPI",
+            "transactionId": "TXN98765",
+            "amount": 19000
+          }
+        }
+      ]
+    },
+    {
+      "userId": "U1002",
+      "name": "Priya Sharma",
+      "email": "priya.sharma@example.com",
+      "address": {
+        "street": "12 MG Road",
+        "city": "Bangalore",
+        "pincode": "560001",
+        "country": "India"
+      },
+      "orders": []
+    }
+  ]
+}

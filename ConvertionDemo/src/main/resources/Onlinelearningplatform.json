@@ -1,0 +1,60 @@
+{
+  "platform": "SkillHub",
+  "categories": [
+    {
+      "name": "Programming",
+      "courses": [
+        {
+          "courseId": "P101",
+          "title": "Java for Beginners",
+          "duration": "6 weeks",
+          "instructor": {
+            "name": "Arun Kumar",
+            "experience": "10 years",
+            "languages": ["English", "Hindi"]
+          },
+          "modules": [
+            { "title": "Introduction", "lessons": 5 },
+            { "title": "OOP Concepts", "lessons": 7 },
+            { "title": "Collections", "lessons": 8 }
+          ]
+        },
+        {
+          "courseId": "P102",
+          "title": "Advanced Python",
+          "duration": "8 weeks",
+          "instructor": {
+            "name": "Priya Sharma",
+            "experience": "12 years",
+            "languages": ["English"]
+          },
+          "modules": [
+            { "title": "Data Structures", "lessons": 6 },
+            { "title": "Flask", "lessons": 7 },
+            { "title": "Machine Learning Basics", "lessons": 10 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Design",
+      "courses": [
+        {
+          "courseId": "D201",
+          "title": "UI/UX Fundamentals",
+          "duration": "4 weeks",
+          "instructor": {
+            "name": "Meera R",
+            "experience": "7 years",
+            "languages": ["English", "Tamil"]
+          },
+          "modules": [
+            { "title": "Principles", "lessons": 4 },
+            { "title": "Wireframes", "lessons": 5 },
+            { "title": "Prototyping", "lessons": 6 }
+          ]
+        }
+      ]
+    }
+  ]
+}

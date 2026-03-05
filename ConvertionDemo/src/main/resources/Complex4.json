@@ -1,0 +1,62 @@
+{
+  "university": "Global Tech University",
+  "location": {
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "country": "India"
+  },
+  "departments": [
+    {
+      "name": "Computer Science",
+      "head": {
+        "name": "Dr. Anitha Kumar",
+        "email": "anitha.kumar@gtu.edu",
+        "phone": "+91-9876543210"
+      },
+      "courses": [
+        {
+          "courseId": "CS101",
+          "title": "Data Structures",
+          "credits": 4,
+          "instructor": {
+            "name": "Prof. Ramesh Babu",
+            "email": "ramesh.babu@gtu.edu"
+          },
+          "students": [
+            {
+              "rollNo": "CS001",
+              "name": "Arun Kumar",
+              "year": 2,
+              "marks": { "midterm": 45, "final": 80 }
+            },
+            {
+              "rollNo": "CS002",
+              "name": "Divya Priya",
+              "year": 2,
+              "marks": { "midterm": 50, "final": 85 }
+            }
+          ]
+        },
+        {
+          "courseId": "CS201",
+          "title": "Algorithms",
+          "credits": 3,
+          "instructor": {
+            "name": "Dr. Surya Narayanan",
+            "email": "surya.n@gtu.edu"
+          },
+          "students": []
+        }
+      ]
+    },
+    {
+      "name": "Mechanical Engineering",
+      "head": {
+        "name": "Dr. Joseph Raj",
+        "email": "joseph.raj@gtu.edu",
+        "phone": "+91-9123456789"
+      },
+      "courses": []
+    }
+  ]
+}

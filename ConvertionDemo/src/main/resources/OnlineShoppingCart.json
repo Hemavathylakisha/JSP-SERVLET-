@@ -1,0 +1,43 @@
+{
+  "cartId": "C12345",
+  "user": {
+    "id": "U789",
+    "name": "Suresh",
+    "email": "suresh@example.com",
+    "address": {
+      "street": "45 Gandhi Road",
+      "city": "Chennai",
+      "state": "TN",
+      "zip": "600001"
+    }
+  },
+  "items": [
+    {
+      "productId": "P001",
+      "name": "Smartphone",
+      "price": 19999,
+      "quantity": 2,
+      "warranty": { "period": "1 Year", "provider": "Samsung" }
+    },
+    {
+      "productId": "P002",
+      "name": "Laptop",
+      "price": 55999,
+      "quantity": 1,
+      "warranty": { "period": "2 Years", "provider": "Dell" }
+    }
+  ],
+  "payment": {
+    "method": "Credit Card",
+    "status": "Paid",
+    "transactionId": "TXN87654"
+  },
+  "delivery": {
+    "type": "Express",
+    "estimatedDays": 2,
+    "tracking": {
+      "id": "TRK90876",
+      "status": "Shipped"
+    }
+  }
+}

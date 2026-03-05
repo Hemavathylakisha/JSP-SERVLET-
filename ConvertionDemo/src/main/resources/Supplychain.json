@@ -1,0 +1,45 @@
+{
+  "chainId": "SCM0001",
+  "company": "GreenAgro Foods",
+  "products": [
+    {
+      "productId": "PRD100",
+      "name": "Organic Rice",
+      "suppliers": [
+        {
+          "supplierId": "SUP101",
+          "name": "FarmFresh Pvt Ltd",
+          "country": "India",
+          "contact": {"phone": "+91-9876543210", "email": "info@farmfresh.com"}
+        }
+      ],
+      "warehouses": [
+        {"id": "WH001", "location": "Chennai", "capacity": "2000 tons"},
+        {"id": "WH002", "location": "Mumbai", "capacity": "1500 tons"}
+      ],
+      "distribution": {
+        "domestic": ["Chennai", "Mumbai", "Delhi"],
+        "international": ["Dubai", "Singapore", "London"]
+      }
+    },
+    {
+      "productId": "PRD200",
+      "name": "Organic Wheat",
+      "suppliers": [
+        {
+          "supplierId": "SUP202",
+          "name": "AgriGrow Ltd",
+          "country": "Australia",
+          "contact": {"phone": "+61-444-123-567", "email": "contact@agrigrow.com"}
+        }
+      ],
+      "warehouses": [
+        {"id": "WH003", "location": "Delhi", "capacity": "2500 tons"}
+      ],
+      "distribution": {
+        "domestic": ["Delhi", "Hyderabad"],
+        "international": ["New York", "Tokyo"]
+      }
+    }
+  ]
+}

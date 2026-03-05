@@ -1,0 +1,66 @@
+{
+  "university": {
+    "name": "Tech Institute of Innovation",
+    "established": 1985,
+    "address": {
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "country": "India"
+    },
+    "faculties": [
+      {
+        "facultyId": "F001",
+        "name": "Engineering",
+        "departments": [
+          {
+            "deptId": "D101",
+            "name": "Computer Science",
+            "courses": [
+              {
+                "courseId": "CSE1001",
+                "title": "Data Structures",
+                "credits": 4,
+                "instructor": {
+                  "name": "Dr. Ramesh",
+                  "email": "ramesh@tii.edu"
+                }
+              },
+              {
+                "courseId": "CSE1002",
+                "title": "Operating Systems",
+                "credits": 3,
+                "instructor": {
+                  "name": "Dr. Meera",
+                  "email": "meera@tii.edu"
+                }
+              }
+            ]
+          },
+          {
+            "deptId": "D102",
+            "name": "Electrical",
+            "courses": [
+              {
+                "courseId": "EEE2001",
+                "title": "Circuits",
+                "credits": 3
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "students": [
+      {
+        "studentId": "S001",
+        "name": "Karthik",
+        "enrolledCourses": ["CSE1001", "EEE2001"]
+      },
+      {
+        "studentId": "S002",
+        "name": "Priya",
+        "enrolledCourses": ["CSE1002"]
+      }
+    ]
+  }
+}

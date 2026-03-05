@@ -1,0 +1,45 @@
+{
+  "city": "Chennai",
+  "listings": [
+    {
+      "id": "H001",
+      "type": "Apartment",
+      "price": 7500000,
+      "location": {
+        "area": "Anna Nagar",
+        "pincode": "600040"
+      },
+      "details": {
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "sqft": 1500,
+        "furnishing": "Semi-Furnished"
+      },
+      "amenities": ["Lift", "Car Parking", "Power Backup"],
+      "owner": {
+        "name": "Suresh",
+        "contact": "9876543210"
+      }
+    },
+    {
+      "id": "H002",
+      "type": "Villa",
+      "price": 15000000,
+      "location": {
+        "area": "ECR",
+        "pincode": "600119"
+      },
+      "details": {
+        "bedrooms": 4,
+        "bathrooms": 4,
+        "sqft": 3200,
+        "furnishing": "Fully-Furnished"
+      },
+      "amenities": ["Swimming Pool", "Garden", "Security"],
+      "owner": {
+        "name": "Lakshmi",
+        "contact": "9988776655"
+      }
+    }
+  ]
+}

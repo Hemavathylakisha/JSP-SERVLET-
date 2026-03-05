@@ -1,0 +1,54 @@
+{
+  "policyId": "POL-98765",
+  "policyHolder": {
+    "name": "Ravi Kumar",
+    "age": 45,
+    "gender": "Male",
+    "contact": {
+      "email": "ravi.kumar@example.com",
+      "phone": "+91-9098765432"
+    },
+    "address": {
+      "street": "56 Anna Nagar",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "zip": "600040"
+    }
+  },
+  "coverages": [
+    {
+      "type": "Health",
+      "sumInsured": 500000,
+      "premium": 12000,
+      "beneficiaries": [
+        {
+          "name": "Lakshmi",
+          "relation": "Spouse",
+          "age": 42
+        },
+        {
+          "name": "Arun",
+          "relation": "Son",
+          "age": 18
+        }
+      ]
+    },
+    {
+      "type": "Accident",
+      "sumInsured": 1000000,
+      "premium": 7000,
+      "beneficiaries": [
+        {
+          "name": "Lakshmi",
+          "relation": "Spouse",
+          "age": 42
+        }
+      ]
+    }
+  ],
+  "paymentHistory": [
+    { "date": "2023-01-01", "amount": 19000, "mode": "Credit Card" },
+    { "date": "2024-01-01", "amount": 19000, "mode": "UPI" }
+  ],
+  "status": "Active"
+}

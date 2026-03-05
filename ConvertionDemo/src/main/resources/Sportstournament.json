@@ -1,0 +1,40 @@
+{
+  "tournamentId": "T2025",
+  "name": "International Cricket League",
+  "hostCountry": "India",
+  "venues": [
+    {"stadium": "Wankhede Stadium", "city": "Mumbai", "capacity": 33000},
+    {"stadium": "Eden Gardens", "city": "Kolkata", "capacity": 68000},
+    {"stadium": "Chinnaswamy Stadium", "city": "Bangalore", "capacity": 35000}
+  ],
+  "teams": [
+    {
+      "teamId": "IND",
+      "name": "India",
+      "players": [
+        {"id": "P1", "name": "Rohit Sharma", "role": "Batsman"},
+        {"id": "P2", "name": "Virat Kohli", "role": "Batsman"},
+        {"id": "P3", "name": "Jasprit Bumrah", "role": "Bowler"}
+      ],
+      "coach": "Rahul Dravid"
+    },
+    {
+      "teamId": "AUS",
+      "name": "Australia",
+      "players": [
+        {"id": "P4", "name": "David Warner", "role": "Batsman"},
+        {"id": "P5", "name": "Steve Smith", "role": "Batsman"},
+        {"id": "P6", "name": "Mitchell Starc", "role": "Bowler"}
+      ],
+      "coach": "Andrew McDonald"
+    }
+  ],
+  "schedule": [
+    {"matchId": "M1", "teams": ["IND", "AUS"], "venue": "Mumbai", "date": "2025-03-01"},
+    {"matchId": "M2", "teams": ["IND", "ENG"], "venue": "Kolkata", "date": "2025-03-05"}
+  ],
+  "prizeMoney": {
+    "winner": "5 Million USD",
+    "runnerUp": "2 Million USD"
+  }
+}

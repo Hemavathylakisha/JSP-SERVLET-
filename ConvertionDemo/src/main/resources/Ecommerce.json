@@ -1,0 +1,58 @@
+{
+  "store": {
+    "id": "STORE789",
+    "name": "MegaMart",
+    "location": "Hyderabad",
+    "categories": [
+      {
+        "id": "CAT001",
+        "name": "Electronics",
+        "products": [
+          {
+            "id": "ELEC1001",
+            "name": "Smartphone",
+            "brand": "Samsung",
+            "specs": {
+              "ram": "8GB",
+              "storage": "128GB",
+              "color": ["Black", "Blue", "Red"]
+            },
+            "price": 30000,
+            "reviews": [
+              {"user": "Amit", "rating": 5, "comment": "Excellent phone"},
+              {"user": "Sneha", "rating": 4, "comment": "Good but expensive"}
+            ]
+          },
+          {
+            "id": "ELEC1002",
+            "name": "LED TV",
+            "brand": "Sony",
+            "specs": {
+              "size": "55 inch",
+              "resolution": "4K"
+            },
+            "price": 75000
+          }
+        ]
+      },
+      {
+        "id": "CAT002",
+        "name": "Groceries",
+        "products": [
+          {
+            "id": "GROC101",
+            "name": "Basmati Rice",
+            "weight": "5kg",
+            "price": 450
+          },
+          {
+            "id": "GROC102",
+            "name": "Sunflower Oil",
+            "quantity": "1L",
+            "price": 150
+          }
+        ]
+      }
+    ]
+  }
+}

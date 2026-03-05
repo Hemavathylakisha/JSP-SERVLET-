@@ -1,0 +1,53 @@
+{
+  "bookingId": "TBK20231234",
+  "traveler": {
+    "firstName": "Meena",
+    "lastName": "Sundar",
+    "passportNumber": "M1234567",
+    "nationality": "Indian",
+    "contact": {
+      "email": "meena.s@example.com",
+      "phone": "+91-9988776655"
+    }
+  },
+  "itinerary": {
+    "flights": [
+      {
+        "flightNumber": "AI302",
+        "from": "Chennai (MAA)",
+        "to": "Singapore (SIN)",
+        "departure": "2024-10-10T05:30:00Z",
+        "arrival": "2024-10-10T11:30:00Z",
+        "seat": "14A"
+      },
+      {
+        "flightNumber": "SQ305",
+        "from": "Singapore (SIN)",
+        "to": "Tokyo (NRT)",
+        "departure": "2024-10-11T09:00:00Z",
+        "arrival": "2024-10-11T18:00:00Z",
+        "seat": "20C"
+      }
+    ],
+    "hotels": [
+      {
+        "hotelName": "Marina Bay Hotel",
+        "location": "Singapore",
+        "checkIn": "2024-10-10",
+        "checkOut": "2024-10-11",
+        "roomType": "Deluxe"
+      },
+      {
+        "hotelName": "Tokyo Grand",
+        "location": "Tokyo",
+        "checkIn": "2024-10-11",
+        "checkOut": "2024-10-20",
+        "roomType": "Suite"
+      }
+    ]
+  },
+  "payments": [
+    { "date": "2024-09-01", "amount": 120000, "currency": "INR", "mode": "Credit Card" }
+  ],
+  "status": "Confirmed"
+}

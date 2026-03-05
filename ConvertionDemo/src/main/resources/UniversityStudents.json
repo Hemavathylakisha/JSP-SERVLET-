@@ -1,0 +1,46 @@
+{
+  "university": "National Institute of Technology",
+  "departments": [
+    {
+      "deptId": "CSE",
+      "name": "Computer Science",
+      "courses": [
+        {
+          "courseId": "CS101",
+          "title": "Data Structures",
+          "credits": 4,
+          "instructor": { "id": "I001", "name": "Dr. Rajesh" },
+          "students": [
+            { "rollNo": "CSE001", "name": "Anitha", "year": 2 },
+            { "rollNo": "CSE002", "name": "Vijay", "year": 2 }
+          ]
+        },
+        {
+          "courseId": "CS102",
+          "title": "Algorithms",
+          "credits": 3,
+          "instructor": { "id": "I002", "name": "Dr. Kumar" },
+          "students": [
+            { "rollNo": "CSE003", "name": "Deepak", "year": 3 },
+            { "rollNo": "CSE004", "name": "Meera", "year": 3 }
+          ]
+        }
+      ]
+    },
+    {
+      "deptId": "ECE",
+      "name": "Electronics",
+      "courses": [
+        {
+          "courseId": "EC101",
+          "title": "Digital Systems",
+          "credits": 3,
+          "instructor": { "id": "I003", "name": "Dr. Latha" },
+          "students": [
+            { "rollNo": "ECE001", "name": "Naveen", "year": 2 }
+          ]
+        }
+      ]
+    }
+  ]
+}

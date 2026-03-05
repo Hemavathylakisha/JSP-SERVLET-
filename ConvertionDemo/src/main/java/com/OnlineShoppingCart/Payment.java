@@ -1,0 +1,37 @@
+package com.OnlineShoppingCart;
+
+public class Payment {
+
+    private String method;
+    private String status;
+    private String transactionId;
+
+    public Payment() {}
+
+	public String getMethod() {
+		return method;
+	}
+
+	public void setMethod(String method) {
+		this.method = method;
+	}
+
+	public String getStatus() {
+		return status;
+	}
+
+	public void setStatus(String status) {
+		this.status = status;
+	}
+
+	public String getTransactionId() {
+		return transactionId;
+	}
+
+	public void setTransactionId(String transactionId) {
+		this.transactionId = transactionId;
+	}
+
+    // Getters and Setters
+    
+}

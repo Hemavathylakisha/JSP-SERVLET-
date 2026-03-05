@@ -1,0 +1,35 @@
+{
+  "projectId": "RES2024-005",
+  "title": "AI-Powered Agriculture Monitoring",
+  "principalInvestigator": {
+    "name": "Dr. Kavitha",
+    "department": "Computer Science",
+    "university": "Anna University",
+    "email": "kavitha.cs@annauniv.edu"
+  },
+  "teamMembers": [
+    { "name": "Suresh", "role": "Data Scientist", "email": "suresh.ds@example.com" },
+    { "name": "Priya", "role": "Agriculture Specialist", "email": "priya.agri@example.com" },
+    { "name": "Rahul", "role": "IoT Engineer", "email": "rahul.iot@example.com" }
+  ],
+  "funding": {
+    "agency": "DST India",
+    "amount": 2500000,
+    "currency": "INR",
+    "durationYears": 3
+  },
+  "milestones": [
+    { "phase": "Prototype IoT Sensors", "dueDate": "2024-12-01", "status": "In Progress" },
+    { "phase": "AI Model Development", "dueDate": "2025-06-01", "status": "Planned" },
+    { "phase": "Field Testing", "dueDate": "2026-01-01", "status": "Pending" }
+  ],
+  "publications": [
+    {
+      "title": "Smart Agriculture using AI",
+      "journal": "International Journal of AI in Agriculture",
+      "year": 2023,
+      "doi": "10.1000/ijaiagri.2023.001"
+    }
+  ],
+  "status": "Ongoing"
+}

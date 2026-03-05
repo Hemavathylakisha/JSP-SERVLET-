@@ -1,0 +1,38 @@
+{
+  "city": "Coimbatore",
+  "initiatives": [
+    {
+      "project": "Smart Traffic Management",
+      "status": "Ongoing",
+      "budget": 20000000,
+      "stakeholders": ["Government", "Private Firms"],
+      "technologies": ["AI Cameras", "IoT Sensors"],
+      "phases": [
+        { "phase": "Pilot", "completed": true },
+        { "phase": "Expansion", "completed": false }
+      ]
+    },
+    {
+      "project": "Waste Management Automation",
+      "status": "Planned",
+      "budget": 10000000,
+      "stakeholders": ["Municipality", "NGOs"],
+      "technologies": ["Smart Bins", "GPS Tracking"],
+      "phases": [
+        { "phase": "Requirement Gathering", "completed": false },
+        { "phase": "Implementation", "completed": false }
+      ]
+    },
+    {
+      "project": "Renewable Energy Grid",
+      "status": "Completed",
+      "budget": 50000000,
+      "stakeholders": ["State Govt", "Energy Dept"],
+      "technologies": ["Solar", "Wind"],
+      "phases": [
+        { "phase": "Installation", "completed": true },
+        { "phase": "Integration", "completed": true }
+      ]
+    }
+  ]
+}

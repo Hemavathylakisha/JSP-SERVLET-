@@ -1,0 +1,68 @@
+{
+  "platformName": "ShopEase",
+  "categories": [
+    {
+      "id": "cat101",
+      "name": "Electronics",
+      "products": [
+        {
+          "productId": "p2001",
+          "title": "Smartphone X200",
+          "specs": {
+            "brand": "TechPro",
+            "storageOptions": ["64GB", "128GB", "256GB"],
+            "colors": ["Black", "Silver", "Blue"]
+          },
+          "reviews": [
+            {
+              "reviewId": "r1001",
+              "user": "Alice",
+              "rating": 4,
+              "comment": "Good phone but battery could be better"
+            },
+            {
+              "reviewId": "r1002",
+              "user": "Bob",
+              "rating": 5,
+              "comment": "Excellent performance and camera!"
+            }
+          ]
+        },
+        {
+          "productId": "p2002",
+          "title": "Wireless Headphones",
+          "specs": {
+            "brand": "SoundMax",
+            "batteryLife": "30 hours",
+            "features": ["Noise Cancellation", "Bluetooth 5.2"]
+          },
+          "reviews": []
+        }
+      ]
+    },
+    {
+      "id": "cat102",
+      "name": "Books",
+      "products": [
+        {
+          "productId": "p3001",
+          "title": "Learn Java in 30 Days",
+          "author": "John Doe",
+          "price": 29.99,
+          "reviews": [
+            {
+              "reviewId": "r2001",
+              "user": "Student101",
+              "rating": 5,
+              "comment": "Very helpful for beginners."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "support": {
+    "email": "support@shopease.com",
+    "phone": "+1-800-999-2020"
+  }
+}

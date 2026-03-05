@@ -1,0 +1,59 @@
+{
+  "studentId": "STU2024-1001",
+  "personalInfo": {
+    "firstName": "Karthik",
+    "lastName": "M",
+    "dob": "2003-07-14",
+    "contact": {
+      "phone": "9876543211",
+      "email": "karthikm@example.com"
+    }
+  },
+  "academicDetails": {
+    "enrolledProgram": "B.Tech Computer Science",
+    "year": 3,
+    "subjects": [
+      {
+        "subjectCode": "CS301",
+        "subjectName": "Data Structures",
+        "marks": {
+          "internal": 40,
+          "external": 85
+        }
+      },
+      {
+        "subjectCode": "CS302",
+        "subjectName": "Operating Systems",
+        "marks": {
+          "internal": 38,
+          "external": 75
+        }
+      }
+    ],
+    "attendance": {
+      "percentage": 88,
+      "monthlyRecord": {
+        "June": 90,
+        "July": 85,
+        "August": 88
+      }
+    }
+  },
+  "extraCurricular": [
+    {
+      "activity": "Football",
+      "position": "Captain",
+      "achievements": ["Intercollege Winner 2023"]
+    },
+    {
+      "activity": "Coding Club",
+      "role": "Member",
+      "achievements": ["Hackathon Finalist"]
+    }
+  ],
+  "scholarship": {
+    "type": "Merit",
+    "amount": 20000,
+    "status": "Active"
+  }
+}

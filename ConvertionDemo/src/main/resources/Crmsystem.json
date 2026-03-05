@@ -1,0 +1,55 @@
+{
+  "crmId": "CRM9012",
+  "organization": "Tech Solutions Pvt Ltd",
+  "contacts": [
+    {
+      "id": "CNT101",
+      "name": "Arun Prasad",
+      "email": "arunp@techsolutions.com",
+      "phone": "9876543210",
+      "role": "Manager",
+      "interactions": [
+        {
+          "date": "2025-07-10",
+          "type": "Call",
+          "summary": "Discussed project requirements"
+        },
+        {
+          "date": "2025-07-20",
+          "type": "Email",
+          "summary": "Sent proposal document"
+        }
+      ]
+    },
+    {
+      "id": "CNT102",
+      "name": "Meena Rao",
+      "email": "meena.rao@techsolutions.com",
+      "phone": "9123456780",
+      "role": "CTO",
+      "interactions": [
+        {
+          "date": "2025-08-01",
+          "type": "Meeting",
+          "summary": "Product demo and feedback"
+        }
+      ]
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "OPP201",
+      "value": 500000,
+      "stage": "Negotiation",
+      "expectedCloseDate": "2025-09-15",
+      "assignedTo": "Arun Prasad"
+    },
+    {
+      "id": "OPP202",
+      "value": 200000,
+      "stage": "Proposal Sent",
+      "expectedCloseDate": "2025-09-30",
+      "assignedTo": "Meena Rao"
+    }
+  ]
+}

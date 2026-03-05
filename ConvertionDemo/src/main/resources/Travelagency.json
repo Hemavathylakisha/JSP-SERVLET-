@@ -1,0 +1,67 @@
+{
+  "agency": {
+    "name": "Global Explorer Tours",
+    "branches": [
+      {
+        "branchId": "B001",
+        "city": "Chennai",
+        "contact": "044-22334455"
+      },
+      {
+        "branchId": "B002",
+        "city": "Delhi",
+        "contact": "011-22334455"
+      }
+    ],
+    "tours": [
+      {
+        "tourId": "T001",
+        "destination": "Singapore",
+        "durationDays": 5,
+        "packageDetails": {
+          "price": 55000,
+          "inclusions": ["Flight", "Hotel", "Meals", "City Tour"]
+        }
+      },
+      {
+        "tourId": "T002",
+        "destination": "Dubai",
+        "durationDays": 4,
+        "packageDetails": {
+          "price": 45000,
+          "inclusions": ["Flight", "Hotel", "Desert Safari"]
+        }
+      }
+    ],
+    "customers": [
+      {
+        "customerId": "C001",
+        "name": "Anand",
+        "bookedTours": [
+          {
+            "tourId": "T001",
+            "travelDate": "2025-12-15",
+            "payment": {
+              "amount": 55000,
+              "status": "Paid"
+            }
+          }
+        ]
+      },
+      {
+        "customerId": "C002",
+        "name": "Deepa",
+        "bookedTours": [
+          {
+            "tourId": "T002",
+            "travelDate": "2025-11-20",
+            "payment": {
+              "amount": 20000,
+              "status": "Partial"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
